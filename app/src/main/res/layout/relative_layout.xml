@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cajarosa"
+        android:layout_width="@dimen/dimen180"
+        android:layout_height="@dimen/dimen180"
+        app:cardBackgroundColor="@color/rosa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:text="Holiiii"/>
+    </androidx.cardview.widget.CardView>
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cajaverde"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toStartOf="@+id/cajarosa"
+        android:layout_alignBottom="@+id/cajarosa"
+        app:cardBackgroundColor="@color/verde"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cajanaranja"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="@color/naranja"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/cajarosa"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cajaazul"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="@color/azul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/cajanaranja"/>
+
+
+
+</RelativeLayout>

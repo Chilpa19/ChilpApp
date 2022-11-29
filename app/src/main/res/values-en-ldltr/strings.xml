@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChilpApp</string>
+    <string name="un_texto">A text</string>
+    <string name="otro_texto">Another text</string>
+    <string name="dentro_de_un_linear">Inside de un linear</string>
+</resources>
